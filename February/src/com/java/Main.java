@@ -73,5 +73,12 @@ public class Main {
         System.out.println(longest("hari", "basnet"));
         System.out.println(Arrays.toString(countPositivesSumNegatives(intArray)));
         
+        
+        // recursion practice
+        
+        NthSeries nn = new NthSeries();
+    
+        System.out.println(nn.seriesSum(5));
+        
     }
 }
