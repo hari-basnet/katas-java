@@ -78,7 +78,7 @@ public class Main {
         
         NthSeries nn = new NthSeries();
     
-        System.out.println(nn.seriesSum(5));
+        System.out.println(nn.seriesSum(1));
         
     }
 }
