@@ -9,7 +9,7 @@ public class FindVowels {
 		return vowelsCount;
 	}
 	
-	public static int getCountUsingForMethod(String str) {
+	public static int getCountUsingForLoop(String str) {
 		int vowelsCount = 0;
 		
 		for(char c : str.toCharArray())
