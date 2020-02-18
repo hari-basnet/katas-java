@@ -84,5 +84,10 @@ public class Main {
         FindVowels fv = new FindVowels();
         System.out.println(fv.getCount("A2-4399 migrate call sites in room-monitor/data-provider"));;
         
+        // printing a diamond
+        GiveMeADiamond stardiamond = new GiveMeADiamond();
+        System.out.println(stardiamond.print(2));
+        
+        
     }
 }
