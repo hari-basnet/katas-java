@@ -80,5 +80,9 @@ public class Main {
     
         System.out.println(nn.seriesSum(1));
         
+        // Find vowels
+        FindVowels fv = new FindVowels();
+        System.out.println(fv.getCount("A2-4399 migrate call sites in room-monitor/data-provider"));;
+        
     }
 }
