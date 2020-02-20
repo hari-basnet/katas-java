@@ -88,6 +88,16 @@ public class Main {
         GiveMeADiamond stardiamond = new GiveMeADiamond();
         System.out.println(stardiamond.print(2));
         
+        // calculate interest 
+        Money interestMoney = new Money();
+        int totalYearsToGetThatAmount = interestMoney.calculateYears(10000, 0.20, 0.01, 1500);
+    
+        int totalYearsToGetThatAmount2 = interestMoney.calculateYearsTwo(1000, 0.20, 0.01, 1500);
+        System.out.println(totalYearsToGetThatAmount + " years.");
+        System.out.println(totalYearsToGetThatAmount2 + " years.");
         
+        // arithmetic function 
+        ArithmeticFunction af = new ArithmeticFunction();
+        System.out.println(af.arithmetic(2,2,"add"));
     }
 }
