@@ -99,5 +99,12 @@ public class Main {
         // arithmetic function 
         ArithmeticFunction af = new ArithmeticFunction();
         System.out.println(af.arithmetic(2,2,"add"));
+        
+        
+        // reverse words 
+        ReverseWordsKata rwk = new ReverseWordsKata();
+        System.out.println(rwk.reverseSingleWord("hello"));
+        System.out.println(rwk.reverseMultipleWords("this sentence need reversing"));
+        
     }
 }
