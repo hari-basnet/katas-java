@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import javax.sound.sampled.Line;
+
 import org.omg.CORBA.INTERNAL;
 import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
 
@@ -106,5 +108,9 @@ public class Main {
         System.out.println(rwk.reverseSingleWord("hello"));
         System.out.println(rwk.reverseMultipleWords("this sentence need reversing"));
         
+        // putting line numbers 
+        LineNumbering ln = new LineNumbering();
+        System.out.println("creating a shopping list");
+        System.out.println(ln.putLineNumbers(Arrays.asList("apple", "banana", "carrot")));
     }
 }
