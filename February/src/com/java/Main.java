@@ -112,5 +112,11 @@ public class Main {
         LineNumbering ln = new LineNumbering();
         System.out.println("creating a shopping list");
         System.out.println(ln.putLineNumbers(Arrays.asList("apple", "banana", "carrot")));
+        
+        
+        // two sum 
+        TwoSum ts = new TwoSum();
+        System.out.println(Arrays.toString(ts.twoSum(new int[] { 1 ,2 ,3}, 4)));
+        
     }
 }
