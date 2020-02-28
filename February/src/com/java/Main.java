@@ -118,5 +118,9 @@ public class Main {
         TwoSum ts = new TwoSum();
         System.out.println(Arrays.toString(ts.twoSum(new int[] { 1 ,2 ,3}, 4)));
         
+        // sum dig pow 
+        SumDigPow sdp = new SumDigPow();
+        System.out.println(sdp.sumDigPow(1,9));
+        
     }
 }
