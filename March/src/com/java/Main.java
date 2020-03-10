@@ -15,5 +15,13 @@ public class Main {
         MaxDiffLength ndf = new MaxDiffLength();
     
         System.out.println(ndf.findDifferenceOfTwoString(new String[]{"dfadf", "asdfa", "fasdfa"}, new String[]{"aserg", "sdf", "a", "asdfasdfadf"}));;
+        
+        String[] sample = {"ABART 20", "CDXEF 50", "BKWRK 25", "BTSQZ 89", "DRTYM 60"};
+        String[] letters = {"A", "B", "C", "W"};
+        // help the book seller 
+        HelpTheBookSeller hlpbs = new HelpTheBookSeller();
+        String calculatedResult = hlpbs.countBooks(sample, letters);
+        System.out.println(calculatedResult);
+        
     }
 }

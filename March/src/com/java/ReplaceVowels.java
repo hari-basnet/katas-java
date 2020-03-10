@@ -6,6 +6,4 @@ public class ReplaceVowels {
 		
 		return s.replaceAll("(?i)[aeiou]", "");
 	}
-	
-	
 }
